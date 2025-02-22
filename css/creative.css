@@ -13,7 +13,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #3342b7;
+  border-color: #097969;
   border-width: 3px;
   max-width: 50px;
 }
@@ -24,7 +24,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #3342b7;
+  color: #097969;
 }
 a:hover,
 a:focus {
@@ -44,7 +44,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #3342b7;
+  background-color: #097969;
 }
 .bg-dark {
   background-color: #222222;
@@ -73,34 +73,31 @@ aside {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #3342b7;
+  color: #097969;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
   color: #eb3812;
-
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 13px;
   color: #222222;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #3342b7;
+  color: #097969;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #3342b7 !important;
+  color: #097969 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -109,7 +106,7 @@ aside {
 }
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
     border-color: rgba(255, 255, 255, 0.3);
   }
   .navbar-default .navbar-header .navbar-brand {
@@ -132,7 +129,7 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #3342b7;
+    color: #097969;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -145,7 +142,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #3342b7;
+    color: #097969;
   }
 }
 header {
@@ -157,7 +154,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/netaisys24new.jpeg');
+  background-image: url('../img/netaisys25bis.png');
   text-align: center;
   color: white;
 }
@@ -166,14 +163,12 @@ header .header-content {
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.4);
 }
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
@@ -279,7 +274,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #3342b7;
+  color: #097969;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -335,8 +330,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #3342b7;
-  border-color: #3342b7;
+  background-color: #097969;
+  border-color: #097969;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -361,7 +356,7 @@ fieldset[disabled] .btn-default.active {
 fieldset[disabled] .btn-primary,
 .btn-primary.disabled:hover,
 .btn-primary[disabled]:hover,
-fieldset[disabled]#097969 .btn-primary:hover,
+fieldset[disabled] .btn-primary:hover,
 .btn-primary.disabled:focus,
 .btn-primary[disabled]:focus,
 fieldset[disabled] .btn-primary:focus,
@@ -374,11 +369,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #3342b7;
-  border-color: #3342b7;
+  background-color: #097969;
+  border-color: #097969;
 }
 .btn-primary .badge {
-  color: #3342b7;
+  color: #097969;
   background-color: #ffffff;
 }
 .btn {
