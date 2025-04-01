@@ -205,6 +205,9 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
 }
+.col-lg-4{
+  width: 25%;
+}
 .section-heading {
   margin-top: 0;
 }
