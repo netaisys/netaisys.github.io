@@ -106,7 +106,7 @@ aside {
 }
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: transparent;
+    background-color: #dcdcdcb3;
     border-color: rgba(255, 255, 255, 0.3);
   }
   .navbar-default .navbar-header .navbar-brand {
@@ -154,7 +154,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bignew.png');
+  background-image: url('../img/netaisys26.png');
   text-align: center;
   color: white;
 }
